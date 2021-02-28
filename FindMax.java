@@ -2,10 +2,10 @@ public class FindMax
 {
     public static void main(String[] args)
     {
-        Integer[] integerArr= {1,2,3};
-        printArr(integerArr);
-        maxFind(integerArr);
-        findmaxInteger(integerArr);
+        Float[] floatArr= {10f,20f,30f};
+        printArr(floatArr);
+        maxFind(floatArr);
+        findmaxfloat(floatArr);
     }
 
     public static<E>void printArr(E[] element)
@@ -27,7 +27,7 @@ public class FindMax
         }System.out.println(max+" ");
     }
 
-    public static <T extends Comparable<T>> void findmaxInteger (T[] elements) {
+    public static <T extends Comparable<T>> void findmaxfloat (T[] elements) {
         T max = elements[0];
         for (T i : elements)
         {
