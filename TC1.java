@@ -1,4 +1,4 @@
-public class FindMax {
+public class TC1 {
     public static void main(String[] args) {
         int[] integerArr = new int[]{1, 2, 3};
         int temp;
