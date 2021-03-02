@@ -2,10 +2,19 @@ public class FindMax
 {
     public static void main(String[] args)
     {
+        Integer[] integerArr= {1,2,3};
+        Float[] floatArr= {10f,20f,30f,};
         String[] stringArr= {"Apple","Peach","Banana"};
+        printArr(integerArr);
+        printArr(floatArr);
         printArr(stringArr);
-        maxFind(stringArr);
+        maxFind(integerArr);
+        maxFind(floatArr);
         findmaxString(stringArr);
+
+
+
+
     }
 
     public static<E>void printArr(E[] element)
@@ -27,11 +36,11 @@ public class FindMax
         }System.out.println(max+" ");
     }
 
-    public static <T extends Comparable<T>> void findmaxString (T[] elements) {
+    public static <T extends Comparable<T>> void findmaxString(T[] elements) {
         T max = elements[0];
         for (T i : elements)
         {
-            if (i.compareTo(max)> 0)
+            if (Integer.valueOf(i.toString().length()).compareTo(Integer.valueOf(max.toString().length())) > 0)
             {
                 max = i;
             }
