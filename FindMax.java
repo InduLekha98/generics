@@ -2,9 +2,9 @@ public class FindMax
 {
     public static void main(String[] args)
     {
-        Integer[] integerArr= {1,2,3};
-        Float[] floatArr= {10f,20f,30f,};
-        String[] stringArr= {"Apple","Peach","Banana"};
+        Integer[] integerArr= {1,2,3,4,5};
+        Float[] floatArr= {10f,20f,30f,40f,50f};
+        String[] stringArr= {"Apple","Peach","Banana","Mango","Strawberry"};
         printArr(integerArr);
         printArr(floatArr);
         printArr(stringArr);
